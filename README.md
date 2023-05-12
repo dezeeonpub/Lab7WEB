@@ -19,21 +19,21 @@ Berikut beberapa ekstensi yang perlu diaktifkan:
 * **libcurl** (opsional), jika ingin pakai Curl.
 
 ## 1). UNTUK MENGAKTIFKAN EKSTENSI TERSEBUT MELALUI **XAMPP CONTROL PANEL** PADA BAGIAN APACHE KLIK **CONFIG -> PHP.ini**
-![xampp](img/xampp.png)
+![xampp]([img/xampp.png](https://github.com/Herli27052000/Lab11Web/blob/master/img/xampp.png))
 
 **PENJELASAN**
 
 Klik **PHP.ini**
 
 ## 2). PADA BAGIAN EKSTENSION,HILANGKAN TANDA ; (titik koma) pada ekstensi yang akan diaktifkan. Kemudian simpan kembali filenya dan restart Apache web server.
-![aktifkan-extension](img/aktifkan-extension.png)
+![aktifkan-extension]((https://github.com/Herli27052000/Lab11Web/blob/master/img/aktifkan-extension.png))
 
 **PENJELASAN**
 
 Aktifkan beberpa extension seperti contoh di atas
 
 ## 3). KEMUDIAN BUAT FOLDER BARU DENGAN NAMA **lab11_php_ci**
-![folder-lab11_php_ci](img/folder-lab11-phpci.png)
+![folder-lab11_php_ci](https://github.com/Herli27052000/Lab11Web/blob/master/img/folder-lab11-phpci.png)
 
 **PENJELASAN**
 
@@ -48,7 +48,7 @@ Untuk melakukan instalasi codeigniter 4 dapat dilakukan dengan dua cara , yaitu 
 * Ubah nama direktory **framework-4.x.xx** menjadi **ci4**
 * Buka browser dengan alamat http://localhost/Lab11Web/lab11_php_ci/ci4/public/
 
-![codeiginiter](img/codeigniter.png)
+![codeiginiter](https://github.com/Herli27052000/Lab11Web/blob/master/img/codeigniter.png)
 
 **PENJELASAN**
 
