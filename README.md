@@ -57,7 +57,7 @@ Codeigniter berhasil didownload dan disimpan file ekstrak nya
 ## 5). MENJALANKAN CLI (***Command Line Interface***)
 Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk mengakses CLI buka terminal/command prompt.
 
- ![CLI](img/cli.png)
+ ![CLI](https://github.com/dezeeonpub/Lab7WEB/blob/master/img/cli.PNG)
 
  **PENJELASAN**
 
@@ -67,7 +67,7 @@ Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk mengak
 ```CLI
 php spark
 ```
-![php-spark-CLI](img/php-spark-CLI.png)
+![php-spark-CLI](https://github.com/dezeeonpub/Lab7WEB/blob/master/img/php-spark-CLI.png)
 
 **PENJELASAN**
 
@@ -116,7 +116,7 @@ Untuk mengetahui route yang ditambahkan sudah benar, buka CLI dan jalankan perin
 ```CLI
 php spark routes
 ```
-![php-spark-routes](img/cli-routes.png)
+![php-spark-routes](https://github.com/dezeeonpub/Lab7WEB/blob/master/img/cli-routes.PNG)
 
 **PENJELASAN**
 
@@ -269,10 +269,10 @@ Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga
 
 **Hasil**
 
-![halaman-about](img/halaman-about.png)
+![halaman-about](https://github.com/dezeeonpub/Lab7WEB/blob/master/img/halaman-about.PNG)
 
 **PENJELASAN**
 
 Di atas adalah halaman About
 
-![halaman-contact](img/halaman-contact.png)
+![halaman-contact](https://github.com/dezeeonpub/Lab7WEB/blob/master/img/halaman-contact.PNG)
