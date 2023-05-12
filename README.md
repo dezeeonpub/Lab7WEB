@@ -19,14 +19,14 @@ Berikut beberapa ekstensi yang perlu diaktifkan:
 * **libcurl** (opsional), jika ingin pakai Curl.
 
 ## 1). UNTUK MENGAKTIFKAN EKSTENSI TERSEBUT MELALUI **XAMPP CONTROL PANEL** PADA BAGIAN APACHE KLIK **CONFIG -> PHP.ini**
-![xampp]([img/xampp.png](https://github.com/Herli27052000/Lab11Web/blob/master/img/xampp.png))
+![xampp](https://github.com/Herli27052000/Lab11Web/blob/master/img/xampp.png)
 
 **PENJELASAN**
 
 Klik **PHP.ini**
 
 ## 2). PADA BAGIAN EKSTENSION,HILANGKAN TANDA ; (titik koma) pada ekstensi yang akan diaktifkan. Kemudian simpan kembali filenya dan restart Apache web server.
-![aktifkan-extension]((https://github.com/Herli27052000/Lab11Web/blob/master/img/aktifkan-extension.png))
+![aktifkan-extension](https://github.com/Herli27052000/Lab11Web/blob/master/img/aktifkan-extension.png)
 
 **PENJELASAN**
 
@@ -57,7 +57,7 @@ Codeigniter berhasil didownload dan disimpan file ekstrak nya
 ## 5). MENJALANKAN CLI (***Command Line Interface***)
 Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk mengakses CLI buka terminal/command prompt.
 
- ![CLI](img/CLI.png)
+ ![CLI](img/cli.png)
 
  **PENJELASAN**
 
@@ -78,25 +78,25 @@ Codeigniter 4 menyediakan fitur **debugging** untuk memudahkan developer untuk m
 
 Secara default fitur ini belum aktif. Ketika terjadi erorr pada aplikasi akan ditampilkan pesan seperti berikut.
 
-![erorr](img/erorr.png)
+![erorr](https://github.com/Herli27052000/Lab11Web/blob/master/img/erorr.png)
 
 **PENJELASAN**
 
 Semua jenis erorr akan ditampilkan sama. Untuk memudahkan mengetahui jenis erorrnya, maka perlu diaktifkan mode debugging dengan mengubah nilai konfigurasi pada environment variable **CI_ENVIRONMENT** menjadi **development.**
 
-![konfigurasi-ci](img/konfigurasi-CI.png)
+![konfigurasi-ci](https://github.com/Herli27052000/Lab11Web/blob/master/img/konfigurasi-CI.png)
 
 **PENJELASAN**
 
 Ubah nama file **env** menjadi **.env** kemudian buka file tersebut dan ubah nilai variable **CI_ENVIRONMENT** menjadi **development.**
 
-![parse-erorr](img/parse-erorr.png)
+![parse-erorr](https://github.com/Herli27052000/Lab11Web/blob/master/img/parse-erorr.png)
 
 **PENJELASAN**
 
 Contoh erorr yang terjadi. Untuk mencoba erorr tersebut, ubah kode pada file **app/Controller/Home.php** hilangkan titik koma pada akhir kode.
 
-![home.php](img/Home.php.png)
+![home.php](https://github.com/Herli27052000/Lab11Web/blob/master/img/Home.php.png)
 
 dan akan erorr seperti gambar tampilan browser digambar sebelumnya.
 
@@ -107,7 +107,7 @@ $routes->get('/about', 'Page::about');
 $routes->get('/contact', 'Page::contact');
 $routes->get('/faqs', 'Page::faqs');
 ```
-![route](img/route.png)
+![route](https://github.com/Herli27052000/Lab11Web/blob/master/img/route.png)
 
 **PENJELASAN**
 
@@ -122,7 +122,7 @@ php spark routes
 
 Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat url: http://localhost:8080/about
 
-![localhost-about](img/localhost-about.png)
+![localhost-about](https://github.com/Herli27052000/Lab11Web/blob/master/img/localhost-about.png)
 
 **PENJELASAN**
 
@@ -131,7 +131,7 @@ Ketika diakses akan muncul tampilan erorr 404 file not found, itu artinya file/p
 ## 8). MEMBUAT CONTROLLER
 Selanjutnya adalah membuat Controller Page. Buat file dengan nama **page.php** pada direktori Controller kemudian isi kodenya seperti berikut.
 
-![about-page](img/about-page.png)
+![about-page](https://github.com/Herli27052000/Lab11Web/blob/master/img/about-page.png)
 
 **PENJELASAN**
 
@@ -141,7 +141,7 @@ Refresh kembali browser,maka akan ditampilkan hasilnya seperti diatas,dan halama
 ## 9). AUTO ROUTING
 Secara default fitur *autoroute* pada Codeigniter sudah aktif. Untuk mengubah status autoroute dapat mengubah nilai variablenya. Untuk menonaktifkan ubah nilai **true** menjadi **false**
 
-![page-tos](img/page-tos.png)
+![page-tos](https://github.com/Herli27052000/Lab11Web/blob/master/img/page-tos.png)
 
 **PENJELASAN**
 
@@ -164,27 +164,27 @@ Selanjutnya adalah membuat view untuk tampilan web agar lebih menarik. Buat file
 </body>
 </html>
 ```
-![code-about](img/code-about.png)
+![code-about](https://github.com/Herli27052000/Lab11Web/blob/master/img/code-about.png)
 
 Ubah **method about** pada class **Controller Page** menjadi seperti berikut:
-![controller-page](img/controller.php.png)
+![controller-page](https://github.com/Herli27052000/Lab11Web/blob/master/img/controller.php.png)
 
 Maka hasil nya akan seperti ini dibrowser
 
-![view-about](img/view-about.png)
+![view-about](https://github.com/Herli27052000/Lab11Web/blob/master/img/view-about.png)
 
 ## 11). MEMBUAT LAYOUT WEB DENGAN CSS
 Pada dasarnya layout web dengan css dapat diimplementasikan dengan mudah pada codeigniter. Yang perlu diketahui adalah, pada Codeigniter 4 file yang menyimpan asset css dan javascript terletak pada direktori **public.**
 
 Buat file css pada direktori **public** dengan nama **style.css** (copy file dari praktikum **lab4_layout**) Kita akan gunakan layout yang pernah dibuat pada praktikum 4.
 
-![file-css](img/file-css.png)
+![file-css](https://github.com/Herli27052000/Lab11Web/blob/master/img/file-css.png)
 
 Kemudian buat folder **template** pada direktori **view** kemudian buat file **header.php** dan **footer.php**
 
 Seperti dibawah ini
 
-![folder-template](img/folder-template.png)
+![folder-template](https://github.com/Herli27052000/Lab11Web/blob/master/img/folder-template.png)
 
 Dan tambahkan file didalam nya.
 
@@ -259,7 +259,7 @@ Kemudian refresh dan lihat kembali hasilnya pada browser
 
 Maka tampilannya akan seperti berikut.
 
-![tampilan-about](img/tampilan-about.png)
+![tampilan-about](https://github.com/Herli27052000/Lab11Web/blob/master/img/tampilan-about.png)
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
