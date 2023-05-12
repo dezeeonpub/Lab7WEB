@@ -1,7 +1,6 @@
 My NAME : Muhammad Azizul Dzikri
 
 
-## PERTEMUAN 12
 
 ## LAB 11 WEB
 
